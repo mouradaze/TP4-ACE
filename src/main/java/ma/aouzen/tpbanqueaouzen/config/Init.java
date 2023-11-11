@@ -10,7 +10,7 @@ import jakarta.enterprise.event.Observes;
 import jakarta.inject.Inject;
 import jakarta.inject.Named;
 import jakarta.servlet.ServletContext;
-import ma.aouzen.tpbanqueaouzen.entitys.CompteBancaire;
+import ma.aouzen.tpbanqueaouzen.entity.CompteBancaire;
 import ma.aouzen.tpbanqueaouzen.service.GestionnaireCompte;
 
 /**

@@ -10,7 +10,7 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.persistence.Query;
 import java.util.List;
-import ma.aouzen.tpbanqueaouzen.entitys.CompteBancaire;
+import ma.aouzen.tpbanqueaouzen.entity.CompteBancaire;
 
 /**
  *
