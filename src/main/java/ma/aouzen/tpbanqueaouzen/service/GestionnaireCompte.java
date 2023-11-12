@@ -56,11 +56,16 @@ public class GestionnaireCompte {
     @Transactional
     public void transferer(CompteBancaire source, CompteBancaire destination,
             int montant) {
-        
-            source.retirer(montant);
-            destination.deposer(montant);
-            em.merge(source);
-            em.merge(destination);
+
+        source.retirer(montant);
+        destination.deposer(montant);
+        em.merge(source);
+        em.merge(destination);
     }
-    
+
+    @Transactional
+    public void creerCompte(CompteBancaire compte) {
+        em.persist(compte);
+    }
+
 }
