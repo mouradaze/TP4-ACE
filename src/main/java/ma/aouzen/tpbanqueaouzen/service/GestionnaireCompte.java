@@ -68,4 +68,8 @@ public class GestionnaireCompte {
         em.persist(compte);
     }
 
+    @Transactional
+    public void supprimer(CompteBancaire compte) {
+        em.remove(em.merge(compte));
+    }
 }
