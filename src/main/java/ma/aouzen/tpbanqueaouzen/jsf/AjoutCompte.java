@@ -12,8 +12,7 @@ import jakarta.enterprise.context.RequestScoped;
 import jakarta.inject.Inject;
 
 /**
- * Backing bean pour la page ajout.xhtml
- * @author grin
+ * @author PC
  */
 @Named(value = "ajout")
 @RequestScoped

@@ -11,9 +11,7 @@ import jakarta.inject.Named;
 import jakarta.enterprise.context.RequestScoped;
 import jakarta.inject.Inject;
 
-/**
- * Backing bean pour la page transfert.xhtml.
- */
+
 @Named(value = "transfert")
 @RequestScoped
 public class Transfert {
