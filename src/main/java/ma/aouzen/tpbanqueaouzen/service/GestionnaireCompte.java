@@ -22,7 +22,7 @@ import ma.aouzen.tpbanqueaouzen.entity.CompteBancaire;
     serverName="localhost",
     portNumber=3306,
     user="root",              // nom et
-    password="", // mot de passe que vous avez donnés lors de la création de la base de données
+    password="root", // mot de passe que vous avez donnés lors de la création de la base de données
     databaseName="banque",
     properties = {
       "useSSL=false",
